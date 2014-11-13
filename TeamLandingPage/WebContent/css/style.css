@@ -1,32 +1,64 @@
 body {
-	margin: 0;
+	margin: auto auto;
 	padding: 0;
+	background-color: #888888;
 }
 
 #wrapper {
-	width: 100%;
+	margin: 100px auto;
+	width: 95%;
 	height: 100%;
 }
 
-ul.main-menu {
-	
+#left-box {
+	display: inline;
+  	postion: relative;
+    float: left;
+	height: 100%;
+	width: 35%;
+	margin-right: 6px;
 }
 
-.main-menu li {
-	list-style-image: none;
-	list-style-type: none;
+#right-box {
+	 display: inline-block;
+  	 postion: relative;
+     float: left;
+	 height: 100%;
+	 width: 60%;
 }
 
-.main-menu li a {
-	color: white;
+.tile {
 	display: block;
-	width: 95%;
-	height: 150px;
-	background-color: red;
-	margin: 10px;
 	border: 1px solid black;
+	margin: 3px;
+	color: white;
 	text-align: center;
-	text-decoration: none;
-	font-size: 100px;
 	font-family: "Trebuchet MS";
+	font-size: 56px;
+	text-decoration: none;
+}
+
+.tile:hover {
+	text-decoration: underline;
+}
+
+.blue {
+	background: #013ADF;
+	width: 100%;
+	height: 225px;
+	padding-top: 180px;
+}
+
+.green {
+	background: #31B404;
+	width: 100%;
+	height: 125px;
+	padding-top: 75px;
+}
+
+.brown {
+	background: #B43104;
+	width: 100%;
+	height: 125px;
+	padding-top: 75px;
 }
